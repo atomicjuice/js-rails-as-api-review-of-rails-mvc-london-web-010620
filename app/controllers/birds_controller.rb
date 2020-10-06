@@ -2,6 +2,6 @@
 
 class BirdsController < ApplicationController
   def index
-    @birds = Bird.all
+    @birds = Bird.all  
   end
 end
